@@ -24,11 +24,6 @@ namespace HelloMvx4.iOS.Views
 
 			set.Bind(navigateButton).To(vm => vm.GoToSecondViewModel);
             set.Apply();
-
-			navigateButton.TouchUpInside += (sender, e) =>
-			{
-				
-			};
         }
     }
 }
